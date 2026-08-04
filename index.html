@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ArcAnc Maven</title>
+</head>
+<body>
+<h1>ArcAnc Maven Repository</h1>
+
+<p>Repository URL:</p>
+
+<pre>https://arcanc.github.io/PulseMaven/</pre>
+
+<p>PulseLib:</p>
+
+<pre>
+repositories {
+    maven {
+        url = uri("https://arcanc.github.io/PulseMaven/")
+    }
+}
+
+dependencies {
+    implementation(
+        "com.arcanc.pulselib:pulselib-neoforge:VERSION"
+    )
+}
+    </pre>
+</body>
+</html>
