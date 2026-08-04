@@ -2,29 +2,224 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ArcAnc Maven</title>
+
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1"
+    >
+
+    <meta
+            name="description"
+            content="Maven repository for ArcAnc projects"
+    >
+
+    <title>ArcAnc Maven Repository</title>
+
+    <style>
+        :root {
+            color-scheme: dark;
+
+            --background: #0d1117;
+            --surface: #161b22;
+            --surface-hover: #1c2129;
+            --border: #30363d;
+            --text: #e6edf3;
+            --muted: #8b949e;
+            --accent: #58a6ff;
+            --code: #0d1117;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 48px 20px;
+
+            background: var(--background);
+            color: var(--text);
+
+            font-family:
+                    Inter,
+                    system-ui,
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    sans-serif;
+
+            line-height: 1.6;
+        }
+
+        main {
+            width: min(900px, 100%);
+            margin: 0 auto;
+        }
+
+        h1 {
+            margin: 0 0 8px;
+            font-size: clamp(2rem, 6vw, 3.5rem);
+            line-height: 1.1;
+        }
+
+        h2 {
+            margin-top: 40px;
+            margin-bottom: 16px;
+        }
+
+        p {
+            color: var(--muted);
+        }
+
+        a {
+            color: var(--accent);
+        }
+
+        pre {
+            overflow-x: auto;
+
+            margin: 16px 0;
+            padding: 18px;
+
+            background: var(--code);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+
+            color: var(--text);
+            font-family:
+                    "JetBrains Mono",
+                    "Fira Code",
+                    monospace;
+
+            font-size: 0.9rem;
+        }
+
+        .artifact-list {
+            display: grid;
+            gap: 12px;
+            padding: 0;
+            list-style: none;
+        }
+
+        .artifact {
+            padding: 18px;
+
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+
+            transition:
+                    background 150ms ease,
+                    border-color 150ms ease;
+        }
+
+        .artifact:hover {
+            background: var(--surface-hover);
+            border-color: var(--accent);
+        }
+
+        .artifact-name {
+            margin: 0 0 4px;
+            color: var(--text);
+            font-weight: 600;
+        }
+
+        .artifact-coordinate {
+            margin: 0;
+            font-family:
+                    "JetBrains Mono",
+                    "Fira Code",
+                    monospace;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            margin-top: 56px;
+            padding-top: 20px;
+
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
+
 <body>
-<h1>ArcAnc Maven Repository</h1>
+<main>
+    <header>
+        <h1>ArcAnc Maven</h1>
 
-<p>Repository URL:</p>
+        <p>
+            Public Maven repository for ArcAnc libraries
+            and Minecraft projects.
+        </p>
+    </header>
 
-<pre>https://arcanc.github.io/PulseMaven/</pre>
+    <section>
+        <h2>Repository</h2>
 
-<p>PulseLib:</p>
+        <pre>https://arcanc.github.io/Maven/</pre>
+    </section>
 
-<pre>
-repositories {
+    <section>
+        <h2>Gradle configuration</h2>
+
+        <pre><code>repositories {
     maven {
-        url = uri("https://arcanc.github.io/PulseMaven/")
-    }
-}
+        name = "ArcAncMaven"
+        url = uri("https://arcanc.github.io/Maven/")
 
-dependencies {
+        content {
+            includeGroupByRegex("com\\.arcanc\\..*")
+        }
+    }
+}</code></pre>
+    </section>
+
+    <section>
+        <h2>Published artifacts</h2>
+
+        <ul class="artifact-list">
+            <li class="artifact">
+                <p class="artifact-name">
+                    PulseLib
+                </p>
+
+                <p class="artifact-coordinate">
+                    com.arcanc.pulselib:pulselib-neoforge
+                </p>
+            </li>
+
+            <li class="artifact">
+                <p class="artifact-name">
+                    Biomorphosis
+                </p>
+
+                <p class="artifact-coordinate">
+                    com.arcanc.biomorphosis:biomorphosis-neoforge
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>PulseLib example</h2>
+
+        <pre><code>dependencies {
     implementation(
-        "com.arcanc.pulselib:pulselib-neoforge:VERSION"
+        "com.arcanc.pulselib:" +
+            "pulselib-neoforge:" +
+            "26.2-1.1.2"
     )
-}
-    </pre>
+}</code></pre>
+    </section>
+
+    <footer>
+        Maintained by
+        <a href="https://github.com/ArcAnc">
+            ArcAnc
+        </a>.
+    </footer>
+</main>
 </body>
 </html>

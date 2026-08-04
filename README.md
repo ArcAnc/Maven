@@ -1,2 +1,2 @@
-# PulseMaven
-Just maven for PulseLib
+# Maven
+Just maven for ArcAnc projects
