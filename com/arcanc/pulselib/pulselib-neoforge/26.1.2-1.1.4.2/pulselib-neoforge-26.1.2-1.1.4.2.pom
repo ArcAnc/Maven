@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.arcanc.pulselib</groupId>
+  <artifactId>pulselib-neoforge</artifactId>
+  <version>26.1.2-1.1.4.2</version>
+  <name>Pulse Lib</name>
+  <description>Neoforge library for animation and rendering</description>
+  <url>https://github.com/ArcAnc/PulseLib</url>
+  <licenses>
+    <license>
+      <name>Arc's License of Common Sense</name>
+      <url>https://github.com/ArcAnc/PulseLib/blob/26.1/LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>arcanc</id>
+      <name>ArcAnc</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/ArcAnc/PulseLib.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/ArcAnc/PulseLib.git</developerConnection>
+    <url>https://github.com/ArcAnc/PulseLib</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>de.javagl</groupId>
+      <artifactId>jgltf-model</artifactId>
+      <version>[2.0,3.0)</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>de.javagl</groupId>
+      <artifactId>jgltf-impl-v1</artifactId>
+      <version>[2.0,3.0)</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>de.javagl</groupId>
+      <artifactId>jgltf-impl-v2</artifactId>
+      <version>[2.0,3.0)</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>[2.10, 2.20)</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>[2.10, 2.20)</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>[2.10, 2.20)</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
