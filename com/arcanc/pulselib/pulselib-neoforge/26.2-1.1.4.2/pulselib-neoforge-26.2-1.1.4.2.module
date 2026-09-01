@@ -27,11 +27,11 @@
         {
           "name": "pulselib-neoforge-26.2-1.1.4.2.jar",
           "url": "pulselib-neoforge-26.2-1.1.4.2.jar",
-          "size": 3294801,
-          "sha512": "c37acd0a8eea6dcf5d4fb14b28ec76a81bfe917ea0a32b861869571a61631bb8b209856120b217d2a11177b7520f81814c10dbac78949b1b8c6efd3eb6a2258d",
-          "sha256": "e1ba1c649e95a73b6833a38ddf32b5de5bcb9cf91334300f657e33531a310aa9",
-          "sha1": "b9293c5e3557a5cbee4e38b069ec8c2e4c5f3d9b",
-          "md5": "4bdda044c482c91b817558769d9b918c"
+          "size": 3292192,
+          "sha512": "299e41e0002a3b2d35576b31760fc78030a057bf6709fea8f7f83e9564cfef5f574f079570b37ff05d104d371248e287540df0f7ab1f6cb41fcced3c1968fc41",
+          "sha256": "5450c340ced5e69fedb9da2c5f1075b9a85686cf976c7cff3f41b557daed696f",
+          "sha1": "efea7c98c55a16100e8defd1df299cf82dde6474",
+          "md5": "69f281f44facc57d7a8ea3d8df837526"
         }
       ]
     },
@@ -104,11 +104,11 @@
         {
           "name": "pulselib-neoforge-26.2-1.1.4.2.jar",
           "url": "pulselib-neoforge-26.2-1.1.4.2.jar",
-          "size": 3294801,
-          "sha512": "c37acd0a8eea6dcf5d4fb14b28ec76a81bfe917ea0a32b861869571a61631bb8b209856120b217d2a11177b7520f81814c10dbac78949b1b8c6efd3eb6a2258d",
-          "sha256": "e1ba1c649e95a73b6833a38ddf32b5de5bcb9cf91334300f657e33531a310aa9",
-          "sha1": "b9293c5e3557a5cbee4e38b069ec8c2e4c5f3d9b",
-          "md5": "4bdda044c482c91b817558769d9b918c"
+          "size": 3292192,
+          "sha512": "299e41e0002a3b2d35576b31760fc78030a057bf6709fea8f7f83e9564cfef5f574f079570b37ff05d104d371248e287540df0f7ab1f6cb41fcced3c1968fc41",
+          "sha256": "5450c340ced5e69fedb9da2c5f1075b9a85686cf976c7cff3f41b557daed696f",
+          "sha1": "efea7c98c55a16100e8defd1df299cf82dde6474",
+          "md5": "69f281f44facc57d7a8ea3d8df837526"
         }
       ]
     },
@@ -124,11 +124,11 @@
         {
           "name": "pulselib-neoforge-26.2-1.1.4.2-sources.jar",
           "url": "pulselib-neoforge-26.2-1.1.4.2-sources.jar",
-          "size": 728299,
-          "sha512": "cc76df48254686109e927b9ccb74afc726282f5bdb264dd8b68f9235b70e40c0a0d28eb35bc38cdc82d8d62f5e3ad88b1aeffcc7c18e6cd4cd08fe66894bd003",
-          "sha256": "46001922bf6e6ea36aa6b95c2f37cc06e96fa27d7af89938924e5bc7fd8a8256",
-          "sha1": "b42c2e6dbe2cb3576b6c7062055a0fbfd3a3a34b",
-          "md5": "d3b2aa0347c10ec66b5e0f2b63c229dd"
+          "size": 727873,
+          "sha512": "4fd93df5a2a5e9303c1fae9ae17fc9ab157e1ea3884e09395a4e7be47ec39a1d10beb0dce7fc0dc478037035c50fcc53bdf6174f4e4f4b25b1a57fb69a9ff345",
+          "sha256": "d1960f71953b583c36e55a3b67f81471c4de6f04ffe37d61c5fda3e5a0ebd323",
+          "sha1": "bfb9f2aac1a28aaab565ef5c1c1c8848623ba506",
+          "md5": "3f2dc16d6f4d05eebaea775a97dd4f8c"
         }
       ]
     },
@@ -144,11 +144,11 @@
         {
           "name": "pulselib-neoforge-26.2-1.1.4.2-javadoc.jar",
           "url": "pulselib-neoforge-26.2-1.1.4.2-javadoc.jar",
-          "size": 5307687,
-          "sha512": "f4985f08af4fae8b6a752d9f3604986799ea17ab9aae1e537af712b5afaeb081b33693d720d30142a28bdf766eaba9a0bcab438a9da2a07ef33aa3c9a783d2e6",
-          "sha256": "3578cb6070217208c318ccc5b6b2f091aa06c27a1fbb4a5b88180096db2ce4e9",
-          "sha1": "9cd450afbd7589512bc853174225938e42870b39",
-          "md5": "91c449a7ad40c054ba1bb2d1f1918173"
+          "size": 5309298,
+          "sha512": "86ff55fd0b1fd4fe2c49194dbf32509609567ed2487c4de7b9dde6878e856c19dff01dada3e9d8a85c17351cfe3e7728569d4002bdd88ee01918ae2fc792d326",
+          "sha256": "8a3998289a5ecfbc2130e924d9805c45ac355e03cbf4b707ac5cb79ec8132ee7",
+          "sha1": "e844c1d795800900a5f46a70282093904c9f512b",
+          "md5": "804f19863fe6c2c7e045e4e14c459ae8"
         }
       ]
     }
