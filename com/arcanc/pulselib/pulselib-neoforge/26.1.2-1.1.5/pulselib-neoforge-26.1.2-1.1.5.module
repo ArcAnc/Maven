@@ -1,0 +1,156 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.arcanc.pulselib",
+    "module": "pulselib-neoforge",
+    "version": "26.1.2-1.1.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pulselib-neoforge-26.1.2-1.1.5.jar",
+          "url": "pulselib-neoforge-26.1.2-1.1.5.jar",
+          "size": 3405139,
+          "sha512": "779fcc2e725574c464c3d43ac2fe83aad709a0d75a14b3bcaae9aa0a40f4a34d369a0f1918b4f3b4accdd843ce025db7eda72c0db2e57101b354fa491aa7175f",
+          "sha256": "207f24f26800bfcf7f2bd430fb28e1f2bc353cb705e9eb2ae6449776190b8f55",
+          "sha1": "c0c02566978dfa04a9d599017afce4c8cd505d9b",
+          "md5": "e4e631a587815106b92d6fd6271b876c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.javagl",
+          "module": "jgltf-model",
+          "version": {
+            "strictly": "[2.0,3.0)",
+            "requires": "[2.0,3.0)",
+            "prefers": "2.0.3"
+          }
+        },
+        {
+          "group": "de.javagl",
+          "module": "jgltf-impl-v1",
+          "version": {
+            "strictly": "[2.0,3.0)",
+            "requires": "[2.0,3.0)",
+            "prefers": "2.0.3"
+          }
+        },
+        {
+          "group": "de.javagl",
+          "module": "jgltf-impl-v2",
+          "version": {
+            "strictly": "[2.0,3.0)",
+            "requires": "[2.0,3.0)",
+            "prefers": "2.0.3"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "strictly": "[2.10, 2.20)",
+            "requires": "[2.10, 2.20)",
+            "prefers": "2.13.2.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "strictly": "[2.10, 2.20)",
+            "requires": "[2.10, 2.20)",
+            "prefers": "2.13.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "strictly": "[2.10, 2.20)",
+            "requires": "[2.10, 2.20)",
+            "prefers": "2.13.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pulselib-neoforge-26.1.2-1.1.5.jar",
+          "url": "pulselib-neoforge-26.1.2-1.1.5.jar",
+          "size": 3405139,
+          "sha512": "779fcc2e725574c464c3d43ac2fe83aad709a0d75a14b3bcaae9aa0a40f4a34d369a0f1918b4f3b4accdd843ce025db7eda72c0db2e57101b354fa491aa7175f",
+          "sha256": "207f24f26800bfcf7f2bd430fb28e1f2bc353cb705e9eb2ae6449776190b8f55",
+          "sha1": "c0c02566978dfa04a9d599017afce4c8cd505d9b",
+          "md5": "e4e631a587815106b92d6fd6271b876c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pulselib-neoforge-26.1.2-1.1.5-sources.jar",
+          "url": "pulselib-neoforge-26.1.2-1.1.5-sources.jar",
+          "size": 831522,
+          "sha512": "9fc4b653d9e5f91e2eba520d4f251babad6c36d8a28391b49efcc82ff0e2640e95edd07531777358718bbe4b9dfd48e9c0dc19e97b5210d5aeb53aa97eac47e5",
+          "sha256": "d8919ea6287157a96d43c648e7e6fd916d9de49318b8e79a22f4c8c032aa6759",
+          "sha1": "9a64a44c87499230fd9efac1ec36b355145745e3",
+          "md5": "1f14f6e5c55f591f1870ed9a060ee774"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pulselib-neoforge-26.1.2-1.1.5-javadoc.jar",
+          "url": "pulselib-neoforge-26.1.2-1.1.5-javadoc.jar",
+          "size": 5577597,
+          "sha512": "52a2dcfee82cf6793542469f82149cf0e7741effed5070eb956a983522e848780f1c82b714d6331db6306e88214e89177b6206dd9bf6e45ebf240e82e5bd0fa8",
+          "sha256": "7b614fade75ce7b2a5e919822816733397d61b18c0b7147be5d596b60d833487",
+          "sha1": "9cbf3c4979ed36817ee206859d1a29ced81fbdf9",
+          "md5": "69fd001ffbae041c739bd35874876a78"
+        }
+      ]
+    }
+  ]
+}
