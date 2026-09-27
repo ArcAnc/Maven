@@ -3,8 +3,8 @@
   <groupId>com.arcanc.pulselib</groupId>
   <artifactId>pulselib-neoforge</artifactId>
   <versioning>
-    <latest>1.21.1-1.1.5.2</latest>
-    <release>1.21.1-1.1.5.2</release>
+    <latest>1.21.1-1.1.5.3</latest>
+    <release>1.21.1-1.1.5.3</release>
     <versions>
       <version>1.21.1-1.1.2</version>
       <version>26.1.1-1.1.2</version>
@@ -32,7 +32,8 @@
       <version>26.2-1.1.5.2</version>
       <version>26.1.2-1.1.5.2</version>
       <version>1.21.1-1.1.5.2</version>
+      <version>1.21.1-1.1.5.3</version>
     </versions>
-    <lastUpdated>20260927150131</lastUpdated>
+    <lastUpdated>20260927202323</lastUpdated>
   </versioning>
 </metadata>
