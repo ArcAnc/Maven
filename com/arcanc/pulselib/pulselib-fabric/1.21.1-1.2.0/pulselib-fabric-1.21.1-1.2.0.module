@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.arcanc.pulselib",
+    "module": "pulselib-fabric",
+    "version": "1.21.1-1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pulselib-fabric-1.21.1-1.2.0.jar",
+          "url": "pulselib-fabric-1.21.1-1.2.0.jar",
+          "size": 3450162,
+          "sha512": "c408c09722a25e9f5f0171015e0e1f3e90a35950551670bdb02ceaed9c211b2cb254b2d8354d8b4438c13d72d757f2c81b64840c30ac7921972fd2f02a68c0bb",
+          "sha256": "f66d7ed0cb6784172bd68030e8ea92d5cbb72f443feaefaf3fe963b4f1000eed",
+          "sha1": "941a78f1eda9b0b75315b80bfa80669aa5cb2ece",
+          "md5": "81a6043ee673f4f9056ac9bca423fd29"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "de.javagl",
+          "module": "jgltf-model",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "de.javagl",
+          "module": "jgltf-impl-v1",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "de.javagl",
+          "module": "jgltf-impl-v2",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.13.2.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.19.5"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.116.17+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pulselib-fabric-1.21.1-1.2.0.jar",
+          "url": "pulselib-fabric-1.21.1-1.2.0.jar",
+          "size": 3450162,
+          "sha512": "c408c09722a25e9f5f0171015e0e1f3e90a35950551670bdb02ceaed9c211b2cb254b2d8354d8b4438c13d72d757f2c81b64840c30ac7921972fd2f02a68c0bb",
+          "sha256": "f66d7ed0cb6784172bd68030e8ea92d5cbb72f443feaefaf3fe963b4f1000eed",
+          "sha1": "941a78f1eda9b0b75315b80bfa80669aa5cb2ece",
+          "md5": "81a6043ee673f4f9056ac9bca423fd29"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pulselib-fabric-1.21.1-1.2.0-sources.jar",
+          "url": "pulselib-fabric-1.21.1-1.2.0-sources.jar",
+          "size": 879762,
+          "sha512": "b60489f4992e9899df1016d550d8c0b9083354bd880f01473f59d14c7e8a4aa5ddbfca8b5cfe371f247ee16fa632586f397c3fcda11053b9abedcd6bf304e004",
+          "sha256": "432979d3a2760452cee91bc4c820fc571c1245122a776d72c94d742663e7ea60",
+          "sha1": "04808e21d6664f9d71448e09afcf5c169969a2c5",
+          "md5": "6829671ef55fada59db813d86048f201"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pulselib-fabric-1.21.1-1.2.0-javadoc.jar",
+          "url": "pulselib-fabric-1.21.1-1.2.0-javadoc.jar",
+          "size": 1588816,
+          "sha512": "94931557ebe966e38356ade79eefdd8a0c956f2197c61bf7179f6d2b1e6d30c879653e527b13e6c1c57e064dd63865a6b089699a7abebdb8cdf60beb747e82b6",
+          "sha256": "6722b88e6c7d5b166c5090eabae6b529f0928b789a678ec38d2c27a8b7aa2e2e",
+          "sha1": "7a9c934e95e3955c8b5c65a67bee46f1268c3045",
+          "md5": "fffc117ef166cb234b92158da689818c"
+        }
+      ]
+    }
+  ]
+}
